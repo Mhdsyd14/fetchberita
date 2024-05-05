@@ -1,0 +1,39 @@
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-left: 85px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.text-muted {
+  color: #6c757d;
+}
